@@ -17,6 +17,21 @@ struct ContentView: View {
     private var items: FetchedResults<Item>
 
     var body: some View {
+        
+        VStack {
+            Spacer().frame(height:24)
+            VStack(alignment: .leading){
+                Text("Welcome back,")
+                    .font(.title2)
+                
+                Text("Kirana")
+                    .font(.title2)
+                    .fontWeight(.semibold)
+            }
+            Spacer()
+            
+        }
+        
         NavigationView {
             List {
                 ForEach(items) { item in

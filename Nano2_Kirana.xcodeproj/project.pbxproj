@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E3CA6A62890F83200F73089 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3CA6A52890F83200F73089 /* Home.swift */; };
 		8EE1708B288E7EFB001AA7F6 /* Nano2_KiranaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1708A288E7EFB001AA7F6 /* Nano2_KiranaApp.swift */; };
 		8EE1708D288E7EFB001AA7F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1708C288E7EFB001AA7F6 /* ContentView.swift */; };
 		8EE1708F288E7EFF001AA7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE1708E288E7EFF001AA7F6 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E3CA6A52890F83200F73089 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		8EE17087288E7EFB001AA7F6 /* Nano2_Kirana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nano2_Kirana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE1708A288E7EFB001AA7F6 /* Nano2_KiranaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano2_KiranaApp.swift; sourceTree = "<group>"; };
 		8EE1708C288E7EFB001AA7F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E3CA6A42890F7F300F73089 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E3CA6A52890F83200F73089 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8EE1707E288E7EFB001AA7F6 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 		8EE17089288E7EFB001AA7F6 /* Nano2_Kirana */ = {
 			isa = PBXGroup;
 			children = (
+				8E3CA6A42890F7F300F73089 /* View */,
 				8EE1708A288E7EFB001AA7F6 /* Nano2_KiranaApp.swift */,
 				8EE1708C288E7EFB001AA7F6 /* ContentView.swift */,
 				8EE1708E288E7EFF001AA7F6 /* Assets.xcassets */,
@@ -265,6 +276,7 @@
 			files = (
 				8EE17097288E7EFF001AA7F6 /* Nano2_Kirana.xcdatamodeld in Sources */,
 				8EE17094288E7EFF001AA7F6 /* Persistence.swift in Sources */,
+				8E3CA6A62890F83200F73089 /* Home.swift in Sources */,
 				8EE1708D288E7EFB001AA7F6 /* ContentView.swift in Sources */,
 				8EE1708B288E7EFB001AA7F6 /* Nano2_KiranaApp.swift in Sources */,
 			);
