@@ -18,19 +18,33 @@ struct ContentView: View {
 
     var body: some View {
         
-        VStack {
-            Spacer().frame(height:24)
-            VStack(alignment: .leading){
-                Text("Welcome back,")
-                    .font(.title2)
-                
-                Text("Kirana")
-                    .font(.title2)
-                    .fontWeight(.semibold)
+        //Vstack all contents
+        VStack (){
+            
+            Spacer().frame(height:28)
+            
+            //Hstack icon and welcome message
+            HStack(spacing:24) {
+//                Spacer().frame(width: 24, alignment: .leading)
+                Image("face")
+                    .frame(alignment: .leading)
+                //Vstack welcome message
+                VStack(alignment: .leading){
+                    Text("Welcome back,")
+                        .font(.title2)
+                        .foregroundColor(.white)
+                    
+                    Text("Kirana")
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.white)
+                }
+                Spacer().frame(width: 100, alignment: .trailing)
             }
             Spacer()
+          
             
-        }
+        } .background(Color("Primary100"))
         
         NavigationView {
             List {
